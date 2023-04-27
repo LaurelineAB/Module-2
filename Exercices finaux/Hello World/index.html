@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+</head>
+<body>
+    <header>
+        <img src="resources/logo.png" alt="Logo Hello World">
+        <nav>
+            <ul>
+                <li><a href="#carnet">Carnet de voyages</a></li>
+                <li><a href="#a-propos">A propos</a></li>
+                <li><a href="#contact">Me contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1 id="carnet">Carnets de voyage</h1>
+        <section>
+            <h2>Mes derniers voyages</h2>
+                <article>
+                    <h3>Vienne, Autriche</h3>
+                    <section>
+                        <img src="vienne.jpg" alt="Vienne, Autriche">
+                        <section>
+                            <p>
+                                Vienne est un mélange d’architecture fastueuse, de musique et de charme pittoresque.
+                            </p>
+                            <p>
+                                Semblable à nulle autre, <strong>Vienne</strong> préserve intact son aspect historique d’origine marqué 
+                                par des édifices fastueux datant de l’époque baroque et des débuts du XXème siècle.
+                            </p>
+                            <p>
+                                La moitié de la ville est située sur le Danube et offre des parcs, la forêt viennoise 
+                                et même des zones viticoles pour les loisirs.
+                            </p>
+                            <button>En savoir plus</button>
+                        </section>
+                    </section>
+                </article>
+                <article>
+                    <h3>Marrakech, Maroc</h3>
+                    <section>
+                        <img src="marrakech.jpg" alt="Marrakech, Maroc">
+                        <section>
+                            <p>
+                                Marrakech, est une ville située dans le centre du Maroc au pied des montagnes de 
+                                l'Atlas. <strong/>Marrakech</strong> est surnommée <span class="red">« la ville rouge »</span>
+                                ou la <span class="ocre">« ville ocre »</span> en référence à la couleur rouge 
+                                d'une grande partie de ses immeubles et ses maisons.
+                            </p>
+                            <p>
+                                Marrakech est une ville unique en son genre qui se distingue totalement du reste. 
+                                Visiter Marrakech est une expérience qui stimulera tous vos sens : ses couleurs, ses 
+                                saveurs et ses odeurs vous marqueront dès votre arrivée et vous accompagneront des 
+                                semaines après votre retour.
+                            </p>
+                            <button>En savoir plus</button>
+                        </section>
+                    </section>
+                </article>
+        </section>
+        <section>
+            <article>
+                <h2 id="a-propos">A propos</h2>
+                <p>
+                    Je m'appelle Claire et j'aime les <strong>voyages</strong> et l'<strong>saventure</strong>.
+                </p>
+                <p>
+                    C'est suite à un long <strong>tour du monde</strong> que j'ai changé de vie et que j'ai décidé de créer ce 
+                    blog pour vous aider à voyager.
+                </p>
+                <p>
+                    Ma passion pour le voyage est désormais devenu mon métier.
+                </p>
+                <p>
+                    Vous pourrez trouver ici de l'inspiration et de nombreux conseils pour <strong>réduire votre 
+                    budget voyages</strong> et pouvoir partir plus souvent.
+                </p>
+            </article>
+        </section>
+        <section>
+            <h2 id="contact">Me contacter</h2>
+            <adress>
+                <p><i></i>31 Rue d'Auteuil, Paris 16ème</p>
+                <p><i></i><a href="mailto:claire@helloworld.com">claire@helloworld.com</a></p>
+                <p><i></i><a href="tel:+33601030507" >06 01 03 05 07</a></p>
+                <p>Suivez-moi sur :</p>
+                <p>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </p>
+            </adress>
+        </section>
+    </div>
+    <footer>
+        <img src="3wa-logo.png" alt="Propriété de la 3W Academy">
+        <p>Ce matériel pédagogique est la propriété de la <a href="https://3wa.fr/propriete-materiel-pedagogique">3W 
+        Academy</a>. Cet exercice a été réalisé par <a href="https://www.consultantweb.eu/">Christiane Dumont</a>.</p>
+        <p>Images fournies par <a href="https://pixabay.com/">Pixabay</a>.</p>
+    </footer>
+</body>
+</html>
+
+<!--(header>img+nav>ul>(li>a)*3)+
+    (div.container>h1+(section>h2+(article>h3+section>(img+section>(p*2+button)))*2)
+    +(section>article>h2+p*4)+(section>h2+adress>((p>(i+a))*3+p+p>i*4))+(footer>(img+p*2))
+-->
