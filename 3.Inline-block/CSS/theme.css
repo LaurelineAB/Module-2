@@ -1,0 +1,19 @@
+article {
+    box-sizing:border-box;
+    width:50%;
+    display:inline-block;
+}
+
+.block {
+    display:block;
+}
+
+.css {
+    font-size:0;
+}
+.css * {
+    font-size:initial;
+}
+.top {
+    vertical-align:top;
+}

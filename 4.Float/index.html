@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Float</title>
+        <link rel="stylesheet" href="CSS/common-v2.css" type="text/css" />
+        <link rel="stylesheet" href="CSS/theme.css">
+    </head>
+    <body>
+        <header>
+            <h1>Colonnes avec float</h1>
+            <p>Faire des colonnes avec la propriété float</p>
+        </header>
+        <main>
+            <h2>Parent sans clear ni overflow</h2>
+                <section class="parent">
+                    <article class="card left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article>
+                    <article class="card right">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero?</article>
+                </section>
+            <h2>Parent avec overflow</h2>
+                <section class="parent overflow">
+                    <article class="card left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article> 
+                    <article class="card right">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero?</article>
+                </section>
+            <h2>Parent avec clear</h2>
+                <section class="parent clear">
+                    <article class="card left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article>
+                    <article class="card right">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero?</article>
+                    <div class="clear"></div>
+                </section>
+            <h2>Parent avec clearfix</h2>
+                <section class="parent clearfix">
+                    <article class="card left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article>
+                    <article class="card right">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero?</article>
+                </section>
+        </main>
+        <footer>
+            <p><a href="www.3wa.fr"><img src="3wa-logo.png" alt="Propriété de la 3W Academy"></a></p>
+            <p>Ce matériel pédagogique est la propriété de la <a href="www.3wa.fr">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+        </footer>
+    </body>
+</html>
+<!--(h2+section.parent>(article.card)*2)*5-->

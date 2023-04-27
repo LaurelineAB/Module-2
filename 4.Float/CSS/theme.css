@@ -1,0 +1,32 @@
+.parent > article { /*Ceci ne concerne que le premier article de .parent*/
+    box-sizing:border-box;
+    width:50%;
+    float:left;
+}
+
+.parent {
+    padding:1em;
+}
+
+.overflow {
+    overflow:auto;
+}
+
+.clear {
+    clear:both;
+}
+.clear article {
+    border-bottom:3px solid red;
+}
+
+.clearfix::after {
+    clear:both;
+    content:" ";
+    display:block;
+    /*visibility:hidden;
+    display:block;
+    height:0;*/
+}
+.clearfix article {
+    border-bottom:3px solid purple;
+}

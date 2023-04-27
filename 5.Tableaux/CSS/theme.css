@@ -1,0 +1,31 @@
+section {
+    background-color: #fff;
+    padding:1em;
+}
+td, th{
+    border:1px solid #ddd;
+    padding:1em;
+}
+.complex table {
+    border-collapse:collapse;
+}
+.complex thead tr:first-child {
+    font-size:2em;
+}
+.complex tbody {
+    border-top:2px solid #999;
+    border-bottom:2px solid #999;
+    text-align:right;
+}
+.complex tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
+.complex tbody td:first-child {
+    text-align:left;
+}
+.complex tbody td:nth-child(2) {
+    text-align:center;
+}
+.complex tfoot {
+    text-align:right;
+}

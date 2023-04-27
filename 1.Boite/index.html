@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Le modèle de boîte</title>
+        <link rel="stylesheet" href="CSS/common-v1.css" type="text/css" />
+        <link rel="stylesheet" href="CSS/theme.css">
+    </head>
+    <body>
+        <header>
+            <h1>Le modèle de boîte</h1>
+            <p>Découverte du modèle de boîte avec margin, padding, border et box-sizing.</p>
+        </header>
+        <main>
+            <p>Une boîte définie en bloc suivra les règles suivantes :</p>
+            <ul>
+                <li>La boîte s'étend et rempli <strong>100% de la largeur</strong> disponible de son élément parent.</li>
+                <li>On peut lui attribuer une <strong>largeur</strong> (width, min-width, max-width) et une <strong>hauteur</strong> (height, min-height, max-height).</li>
+                <li>La propriété <strong>margin</strong> correspond à la <em>marge externe</em>.</li>
+                <li>La propriété <strong>padding</strong> correspond à la <em>marge interne</em>.</li>
+                <li>La propriété <strong>border</strong> ajoute une <em>bordure</em>.</li>
+                <li>Par défaut, quand la propriété <strong>box-sizing</strong> n'est pas définie avec la valeur <strong>border-box</strong>, le padding et le border s'ajoutent à la largeur de la boîte.</li>
+            </ul>
+            <div class="box box1">Voici une 1<sup>ère</sup> boîte.</div>
+            <div class="box box2">Voici une 2<sup>ème</sup> boîte avec utilisation de margin.</div>
+            <div class="box box3">Voici une 3<sup>ème</sup> boîte avec utilisation de padding.</div>
+            <div class="box box4">Voici une 4<sup>ème</sup> boîte avec utilisation de padding + border.</div>
+            <div class="box box5">Voici une 5<sup>ème</sup> boîte avec utilisation de margin + padding + border.</div>
+            <div class="box box6">Voici une 6<sup>ème</sup> boîte avec utilisation de margin + padding + border + box-sizing: border-box.</div>
+        </main>
+        <footer>
+            <p><a href="www.3wa.fr"><img src="3wa-logo.png" alt="Propriété de la 3W Academy"></a></p>
+            <p>Ce matériel pédagogique est la propriété de la <a href="www.3wa.fr">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+        </footer>
+    </body>
+</html>

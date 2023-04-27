@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Display Inline-block</title>
+        <link rel="stylesheet" href="CSS/common-v2.css" type="text/css" />
+        <link rel="stylesheet" href="CSS/theme.css">
+    </head>
+    <body>
+        <header>
+            <h1>Colonnes avec display inline-block</h1>
+            <p>Faire des colonnes avec la propriété display inline-block</p>
+        </header>
+        <main>
+            <h2>Parent sans hack</h2>
+                <section class="parent">
+                    <article class="card block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article>
+                    <article class="card block">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ratione incidunt eos eveniet cupiditate possimus accusantium quod amet inventore officia!</article>
+                </section>
+            <h2>Avec articles collés</h2>
+                <section class="parent">
+                    <article class="card glued">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article><article class="card glued">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ratione incidunt eos eveniet cupiditate possimus accusantium quod amet inventore officia!</article>
+                </section>
+            <h2>Avec commentaire entre les articles</h2>
+                <section class="parent">
+                    <article class="card glued">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article><!--Un commentaire--><article class="card glued">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ratione incidunt eos eveniet cupiditate possimus accusantium quod amet inventore officia!</article>
+                </section>
+            <h2>Méthode CSS pure</h2>
+                <section class="parent css">
+                    <article class="card glued">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article>
+                    <article class="card glued">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ratione incidunt eos eveniet cupiditate possimus accusantium quod amet inventore officia!</article>
+                </section>
+            <h2>Méthode CSS pure + vertical-align:top</h2>
+                <section class="parent css">
+                    <article class="card glued top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo a dolorum quas quasi incidunt ducimus repudiandae sequi cum minus itaque.</article>
+                    <article class="card glued top">Eligendi, voluptates, culpa necessitatibus cum magni repellat impedit commodi ducimus veniam repudiandae sint nobis hic ab consequuntur vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ratione incidunt eos eveniet cupiditate possimus accusantium quod amet inventore officia!</article>
+                </section>
+        </main>
+        <footer>
+            <p><a href="www.3wa.fr"><img src="3wa-logo.png" alt="Propriété de la 3W Academy"></a></p>
+            <p>Ce matériel pédagogique est la propriété de la <a href="www.3wa.fr">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+        </footer>
+    </body>
+</html>
+<!--(h2+section.parent>(article.card)*2)*5-->
