@@ -1,0 +1,67 @@
+/***GENERAL***/
+div {
+    padding:2em;
+    background-color: teal;
+    max-width:40em;
+    min-height:20em;
+    color:#fff;
+    background-repeat: no-repeat;
+    
+}
+.small {
+    background-image: url(../ressources/small.jpg);
+}
+.large {
+    background-image: url("../ressources/large.jpg");
+}
+
+/***REPETITION***/
+.repeat {
+    background-repeat: repeat;
+}
+
+.no-repeat {
+    background-repeat: no-repeat;
+}
+
+.repeat-x {
+    background-repeat: repeat-x;
+}
+
+.repeat-y {
+    background-repeat: repeat-y;
+}
+
+/***SIZE***/
+.contain {
+    background-size: contain;
+}
+
+.cover {
+    background-size: cover;
+}
+
+.bgs-50 {
+    background-size: 50%;
+}
+
+.bgs-80-40 {
+    background-size: 80% 40%;
+}
+
+/***POSITION*/
+.center {
+    background-position: center;
+}
+
+.right-top {
+    background-position: right top;
+}
+
+.right-bottom {
+    background-position: right bottom;
+}
+
+.bgp-80-40 {
+    background-position: 80% 40%;
+}

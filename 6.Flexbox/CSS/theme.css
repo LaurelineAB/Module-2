@@ -92,16 +92,15 @@ li {
 .test18 li {
     flex-grow:1;
     flex-shrink:1;
-    flex-basis:150px;
+    flex-basis:100%;
 }
 .test18 li:nth-child(3) {
-    flex-shrink:2;
+    flex-shrink:3;
 }
 
-.test19 article:nth-child(odd) {
+.test19 article {
     flex-grow:1;
-    flex-shrink:1;
-    flex-basis:50%;
+    flex-basis:1em;
 }
 .test19 article:nth-child(2) {
     flex-grow:2;

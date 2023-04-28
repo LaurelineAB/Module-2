@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Background image</title>
+        <link rel="stylesheet" href="CSS/common-v2.css" type="text/css" />
+        <link rel="stylesheet" href="CSS/theme.css">
+    </head>
+    <body>
+        <header>
+            <h1>Ajouter une image de fond</h1>
+            <p>Comprendre comment afficher et bien positionner une image de fond</p>
+        </header>
+        <main>
+            <section>
+                <h2>Image <em>versus</em> background</h2>
+                    <p>
+                        L'image (ici le logo de la 3WA) est un élément <img>, c'est un contenu 
+                        et sera référencée par les moteurs de recherche. L'image de fond (les 
+                        olives) est une décoration déclarée en dans la feuille de style et NE 
+                        sera PAS référencée par les moteurs de recherche.
+                    </p>
+                    <div class="large">
+                        <img src="ressources/logo-3wa.png" alt="Logo 3WA">
+                    </div>
+                <h2>Répétition de l'image</h2>
+                    <pre class="code">background-repeat: repeat;</pre>
+                    <div class="small repeat">
+                        <p>Du texte...</p>
+                    </div>
+                    <pre class="code">background-repeat: no-repeat;</pre>
+                    <div class="small no-repeat">
+                        <p>Du texte...</p>
+                    </div>
+                    <pre class="code">background-repeat: repeat-x;</pre>
+                    <div class="small repeat-x">
+                        <p>Du texte...</p>
+                    </div>
+                    <pre class="code">background-repeat: repeat-y;</pre>
+                    <div class="small repeat-y">
+                        <p>Du texte...</p>
+                    </div>
+                <h2>Ajustement de la taille de l'image du fond par rapport à son élément.</h2>
+                    <pre class="code">background-size: contain;</pre>
+                    <div class="large contain">
+                        <p>Du texte...</p>
+                    </div>
+                    <pre class="code">background-size: cover;</pre>
+                    <div class="large cover">
+                        <p>Du texte...</p>
+                    </div>
+                    <pre class="code">background-size: 50%;</pre>
+                    <div class="large bgs-50">
+                        <p>Du texte...</p>
+                    </div>
+                    <pre class="code">background-size: 80% 40%;</pre>
+                    <div class="large bgs-80-40">
+                        <p>Du texte...</p>
+                    </div>
+                <h2>Positionnement de l'image.</h2>
+                    <pre class="code">background-position: center;</pre>
+                    <div class="small center">
+                        <p>Du texte...</p>
+                    </div>
+                    <pre class="code">background-position: right top;</pre>
+                    <div class="small right-top">
+                        <p>Du texte...</p>
+                    </div>
+                    <pre class="code">background-position: right bottom;</pre>
+                    <div class="small right-bottom">
+                        <p>Du texte...</p>
+                    </div>
+                    <pre class="code">background-position: 80% 40%;</pre>
+                    <div class="small bgp-80-40">
+                        <p>Du texte...</p>
+                    </div>
+            </section>
+        </main>
+        <footer>
+            <p><a href="www.3wa.fr"><img src="3wa-logo.png" alt="Propriété de la 3W Academy"></a></p>
+            <p>Ce matériel pédagogique est la propriété de la <a href="www.3wa.fr">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+        </footer>
+    </body>
+</html>
+<!--section>(h2+p+img+(h2+(pre.code+div>p{Du texte...})*4)*3-->

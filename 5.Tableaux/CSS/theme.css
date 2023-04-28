@@ -9,7 +9,7 @@ td, th{
 .complex table {
     border-collapse:collapse;
 }
-.complex thead tr:first-child {
+.complex thead tr:first-child{
     font-size:2em;
 }
 .complex tbody {
