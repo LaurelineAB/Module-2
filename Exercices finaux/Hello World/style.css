@@ -1,0 +1,67 @@
+/***GENERALITES***/
+body {
+    margin:0;
+    padding:0;
+    /*-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;*/
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    color:#333;
+    line-height:1.6em;
+}
+
+.container {
+    width:90%;
+    max-width:900px;
+    margin:0 auto;
+    /*background-color: #999;*/
+}
+
+/***TITRES***/
+h1, h2, h3 {
+    font-weight:normal;
+    line-height:1.5em;
+}
+
+h1 {
+    text-align: center;
+    font-size:3rem;
+    color:#40CCEA;
+    word-spacing:10px;
+    border-bottom: 1px dashed;
+    display:block;
+    width:90%;
+    margin:auto;
+}
+
+h2 {
+    font-size:1.6rem;
+}
+
+h3 {
+    font-size:1.4rem;
+}
+
+
+/***HEADER***/
+header {
+    text-align:center;
+}
+
+header nav {
+    background-color: #40CCEA;
+    color: white;
+}
+header ul {
+    display:flex;
+    justify-content:space-evenly;
+    list-style:none;
+    padding:0.5rem;
+}
+header nav a {
+    color:white;
+    text-decoration:none;
+}
+
+
+/***MAIN***/
