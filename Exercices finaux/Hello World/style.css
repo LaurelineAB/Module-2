@@ -133,12 +133,10 @@ button a {
 /***CONTACT***/
 adress p {
     font-style:italic;
+    margin:0;
 }
-.no-margin-b/*adress p:nth-child(4)*/ {
-    margin-bottom:0;
-}
-.no-margin-t/*adress p:nth-child(5)*/ {
-    margin-top:0;
+.margin-b/*adress p:nth-child(4)*/ {
+    margin-bottom:1.5em;
 }
 .fa-brands {
     font-size:2rem;
@@ -162,10 +160,39 @@ footer {
     text-align:center;
     color:white;
     padding:1rem;
+    margin-top:1.5em;
 }
 footer img {
     width:60px;
 }
 footer a {
     color:white;
+}
+
+
+/***BONUS***/
+iframe {
+    width:100%;
+}
+.gallery {
+    background-color: #eee;
+    display:flex;
+    flex-wrap:wrap;
+    padding:1.5em;
+    /*justify-content:space-evenly;*/
+}
+.gallery article {
+    box-sizing:border-box;
+    width:48%;
+    background-color: #fff;
+    text-align:center;
+}
+.margin-r {
+    margin-right:1.5em;
+}
+.gallery article img {
+    width:100%;
+}
+.gallery article p {
+    padding:1em;
 }
