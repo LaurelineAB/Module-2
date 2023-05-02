@@ -1,0 +1,35 @@
+/***TEXTE***/
+main p {
+    columns:3;
+    text-align:justify;
+    column-rule:1px solid #333;
+    column-gap:2em;
+}
+
+
+/***BLOCS***/
+.cards {
+    list-style:none;
+    padding:2em 0;
+    columns:2;
+    column-gap:2em;
+}
+.cards li {
+    background-color: #ccc;
+    margin:2em 0;
+    text-align:center;
+    padding:1em;
+    font-size:1.8rem;
+}
+.cards li:first-of-type {
+    margin:0;
+}
+
+
+/***IMAGES***/
+.images {
+    list-style:none;
+    padding:0;
+    columns:4;
+    text-align:center;
+}

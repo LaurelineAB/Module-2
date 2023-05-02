@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulaire simple</title>
+        <link rel="stylesheet" href="CSS/common-v2.css" type="text/css" />
+        <link rel="stylesheet" href="CSS/theme.css">
+    </head>
+    <body>
+        <header>
+            <h1>Un formulaire simple</h1>
+            <p>Faire un premier formulaire simple</p>
+        </header>
+        <main>
+            <form>
+                <fieldset class="coordonnees">
+                    <legend>Mes coordonnées</legend>
+                    <field>
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom">
+                    </field>
+                    <field>
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom">
+                    </field>
+                    <field>
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </field>
+                </fieldset>
+                <fieldset class="demande">
+                    <legend>Ma demande</legend>
+                    <select id="objet">
+                        <option vlaue="0">Choisir l'objet de ma demande...</option>
+                        <option value="q">Question d'ordre général</option>
+                        <option value="g">Déclarer un bug gênant</option>
+                        <option value="b">Déclarer un bug bloquant</option>
+                    </select>
+                    <textarea id="demande"></textarea>
+                </fieldset>
+                <fieldset class="bouton">
+                    <button name="valider">Valider le formulaire</button>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <p><a href="www.3wa.fr"><img src="3wa-logo.png" alt="Propriété de la 3W Academy"></a></p>
+            <p>Ce matériel pédagogique est la propriété de la <a href="www.3wa.fr">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+        </footer>
+    </body>
+</html>
+<!--(fieldset{Mes coordonnées}>(label+input)*3)+(fieldset{Ma demande}>select+textarea)+fieldset>button-->
