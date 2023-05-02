@@ -65,19 +65,28 @@ h3 {
     background-color: #7e4a7c;
     color:white;
     padding:0.7em;
-    border:none;
     font-family:Economica;
     font-size:2rem;
     font-weight:bold;
+    border:1px solid #7e4a7c;
+}
+.more:hover {
+    background-color: #fff;
+    color: #7e4a7c;
 }
 .book {
     background-color: #7e4a7c;
     color:white;
-    padding:0.7em;
-    border:none;
+    padding:0.5em;
+    border:1px solid #7e4a7c;
     font-family:Economica;
     font-size:2.5rem;
     font-weight:bold;
+    margin-bottom:0.5em;
+}
+.book:hover {
+    background-color: #fff;
+    color:#7e4a7c;
 }
 /***ABOUT***/
 .about {
@@ -114,7 +123,123 @@ h3 {
 /***STAFF***/
 .staff {
     display:flex;
+    flex-wrap:wrap;
 }
 .staff article {
     width:50%;
+    margin-bottom:2em;
+}
+.staff img {
+    float:left;
+    margin-right:1em;
+}
+.staff h3 {
+    margin-top:0;
+}
+.staff article p:first-of-type {
+    color:#7e4a7c;
+    font-style:italic;
+}
+.staff article::after {
+    content:"";
+    clear:both;
+}
+
+
+/***CLASSES***/
+table {
+    text-align:center;
+    border-collapse:collapse;
+    width:90%;
+    margin:0 auto;
+}
+thead th {
+    background-color: #7e4a7c;
+    color:white;
+}
+th, td {
+    border:1px solid #b878b5;
+    /*line-height:2em;*/
+    padding:1em;
+}
+.empty {
+    background-color: #ffeefe;
+}
+
+
+/***BOOKING***/
+form {
+    border:1px solid #7e4a7c;
+    text-align:center;
+}
+fieldset {
+    display:flex;
+    background-color: #ffeefe;
+    border:none;
+    align-items:center;
+}
+.infos, .lesson {
+    /*display:flex;*/
+    justify-content:space-between;
+    margin:1em;
+}
+input {
+    border:1px solid #7e4a7c;
+    margin:0.5em;
+}
+label {
+    padding:0 1em;
+    color:#7e4a7c;
+    font-weight:bold;
+}
+.infos input {
+    flex-grow:1;
+    width:25em;
+}
+.lesson select {
+    flex-grow:1;
+    width:15em;
+}
+
+
+/***FOOTER***/
+footer {
+    text-align:center;
+}
+footer nav {
+    background-color: #7e4a7c;
+    margin-bottom:0;
+    margin-top:3em;
+}
+footer ul {
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    padding:0.5em;
+    margin-bottom:0;
+}
+footer li a {
+    text-decoration:none;
+    color:white;
+    font-size:2.4rem;
+    padding:0 1em;
+}
+footer li a:hover {
+    background-color: #fff;
+    color:#7e4a7c;
+}
+.copyright {
+    background-color: #333;
+    color:white;
+    padding:1em;
+}
+.copyright a {
+    color:white;
+    margin:0;
+}
+.copyright a:hover {
+    font-weight:bold;
+}
+footer img {
+    width:5%;
 }

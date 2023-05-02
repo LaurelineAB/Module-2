@@ -179,11 +179,11 @@ iframe {
     display:flex;
     flex-wrap:wrap;
     padding:1.5em;
-    /*justify-content:space-evenly;*/
+    justify-content:space-around;
 }
 .gallery article {
     box-sizing:border-box;
-    width:48%;
+    width:calc(100% / 2 - 0.8em);
     background-color: #fff;
     text-align:center;
 }
