@@ -8,20 +8,20 @@ main p {
 
 
 /***BLOCS***/
-.cards {
+.blocks {
     list-style:none;
     padding:2em 0;
     columns:2;
     column-gap:2em;
 }
-.cards li {
+.blocks li {
     background-color: #ccc;
     margin:2em 0;
     text-align:center;
     padding:1em;
     font-size:1.8rem;
 }
-.cards li:first-of-type {
+.blocks li:first-of-type {
     margin:0;
 }
 

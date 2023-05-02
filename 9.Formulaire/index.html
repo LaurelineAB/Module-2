@@ -12,34 +12,34 @@
             <p>Faire un premier formulaire simple</p>
         </header>
         <main>
-            <form>
+            <form action="" method="POST">
                 <fieldset class="coordonnees">
                     <legend>Mes coordonnées</legend>
                     <field>
                         <label for="prenom">Prénom</label>
-                        <input type="text" id="prenom">
+                        <input type="text" name="prenom" id="prenom">
                     </field>
                     <field>
                         <label for="nom">Nom</label>
-                        <input type="text" id="nom">
+                        <input type="text" id="nom" name="nom">
                     </field>
                     <field>
                         <label for="email">Email</label>
-                        <input type="email" id="email">
+                        <input type="email" id="email" name="email">
                     </field>
                 </fieldset>
                 <fieldset class="demande">
                     <legend>Ma demande</legend>
-                    <select id="objet">
-                        <option vlaue="0">Choisir l'objet de ma demande...</option>
+                    <select id="objet" name="objet">
+                        <option value="0">Choisir l'objet de ma demande...</option>
                         <option value="q">Question d'ordre général</option>
                         <option value="g">Déclarer un bug gênant</option>
                         <option value="b">Déclarer un bug bloquant</option>
                     </select>
-                    <textarea id="demande"></textarea>
+                    <textarea id="demande" name="demande"></textarea>
                 </fieldset>
                 <fieldset class="bouton">
-                    <button name="valider">Valider le formulaire</button>
+                    <button type="submit" value="valider">Valider le formulaire</button>
                 </fieldset>
             </form>
         </main>

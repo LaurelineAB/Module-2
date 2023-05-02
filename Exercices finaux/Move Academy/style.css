@@ -1,0 +1,120 @@
+/***GENERAL***/
+html {
+    font-size:62.5%;
+}
+body {
+    padding:0;
+    margin:0;
+    font-size:1.6rem;
+    font-family:Open Sans;
+    border-top:4px solid #7e4a7c;
+}
+.container {
+    max-width:1200px;
+    margin:0 auto;
+}
+
+
+/***HEADER***/
+header {
+    text-align:center;
+}
+header nav {
+    background-color: #7e4a7c;
+}
+header ul {
+    list-style:none;
+    display:flex;
+    justify-content:space-evenly;
+    padding:0.5em;
+}
+header li a {
+    text-decoration:none;
+    color:white;
+    font-family:Economica;
+    font-size:2.4rem;
+    font-weight:bold;
+}
+header li a:hover {
+    background-color: #fff;
+    color:#7e4a7c;
+}
+
+
+/***TITRES***/
+h1 {
+    font-family:Economica;
+    color: #7e4a7c;
+    text-align:center;
+    font-size:5rem;
+}
+h2 {
+    font-family:Economica;
+    color: #b878b5;
+    font-size:4rem;
+}
+h3 {
+    font-family:Economica;
+    color: #7e4a7c;
+    font-size:3rem;
+}
+
+
+/***BOUTONS***/
+.more {
+    background-color: #7e4a7c;
+    color:white;
+    padding:0.7em;
+    border:none;
+    font-family:Economica;
+    font-size:2rem;
+    font-weight:bold;
+}
+.book {
+    background-color: #7e4a7c;
+    color:white;
+    padding:0.7em;
+    border:none;
+    font-family:Economica;
+    font-size:2.5rem;
+    font-weight:bold;
+}
+/***ABOUT***/
+.about {
+    display:flex;
+}
+.about img {
+    width:370px;
+    height:375px;
+}
+.about article {
+    width:calc(100% / 3);
+    padding:0 1em;
+}
+.about p:first-child {
+    color:#7e4a7c;
+    font-style:italic;
+    margin-top:0;
+}
+.about h3 {
+    margin-top:0;
+}
+.about ul {
+    padding:0;
+}
+.about li {
+    list-style:none;
+    padding:0.5em 0;
+}
+.about li::before {
+    content:url("images/puce-fleche.png");
+}
+
+
+/***STAFF***/
+.staff {
+    display:flex;
+}
+.staff article {
+    width:50%;
+}
